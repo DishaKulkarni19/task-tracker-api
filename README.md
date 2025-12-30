@@ -1,23 +1,28 @@
-# Task Tracker API
+# Student Task Tracker API
 
-Beginner-level Django REST application demonstrating:
-- CRUD operations
-- PostgreSQL (Supabase) integration
-- Third-party API usage
-- Data reporting
+This is a beginner-level Django REST application that demonstrates
+CRUD operations, third-party API integration, and basic data reporting
+using PostgreSQL.
+
+## Features
+- Create, Read, Update, Delete tasks
+- Fetch motivational quotes from external API
+- Task completion report
 
 ## Tech Stack
 - Python
-- Django
-- Supabase
+- Django & Django REST Framework
+- PostgreSQL / Supabase
+- GitHub
 
-## Run Instructions
-1. Install dependencies
-2. Configure database
-3. Run migrations
-4. Start server
+## Setup
+1. Clone repository
+2. Install dependencies
+3. Configure database
+4. Run migrations
+5. Start server
 
-## APIs
-- /api/tasks/
-- /api/quote/
-- /api/report/
+## API Endpoints
+- /tasks/
+- /quote/
+- /report/
